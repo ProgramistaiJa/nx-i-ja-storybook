@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@i-ja/common-ui": ["packages/lib/common-ui/src/index.ts"],
+      "@i-ja/is-even": ["packages/lib/is-even/src/index.ts"],
+      "@i-ja/is-odd": ["packages/lib/is-odd/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
