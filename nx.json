@@ -32,6 +32,9 @@
     },
     "build-storybook": {
       "inputs": ["default", "^production", "{workspaceRoot}/.storybook/**/*"]
+    },
+    "e2e": {
+      "inputs": ["default", "^production"]
     }
   },
   "namedInputs": {
@@ -56,6 +59,13 @@
       "application": {
         "babel": true
       }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "scss",
+        "linter": "eslint"
+      }
     }
-  }
+  },
+  "defaultProject": "kolo-zycia"
 }
