@@ -32,6 +32,10 @@ yarn storybook
 nx g @nrwl/next:app my-new-app
 ```
 
+```bash
+nx g @nrwl/next:page my-new-page --project=my-new-app
+```
+
 ### library
 
 ```bash
@@ -43,3 +47,7 @@ nx g @nrwl/react:lib my-new-lib --publishable --importPath=@i-ja/my-new-lib
 ```bash
 nx g @nrwl/react:stories <project-name>
 ```
+
+## Deploy
+
+[how to deploy Next.js application to Vercel](https://nx.dev/recipes/other/deploy-nextjs-to-vercel)

@@ -3,10 +3,6 @@ import styled from 'styled-components';
 /* eslint-disable-next-line */
 export interface ButtonProps {}
 
-const StyledButton = styled.button`
-  color: pink;
-`;
-
 export function Button(props: ButtonProps) {
   return (
     <StyledButton>
@@ -16,3 +12,7 @@ export function Button(props: ButtonProps) {
 }
 
 export default Button;
+
+const StyledButton = styled.button`
+  color: pink;
+`;
